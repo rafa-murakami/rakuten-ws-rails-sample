@@ -1,3 +1,10 @@
 language: ruby
 rvm:
-  - 2.0.0
+- 2.0.0
+deploy:
+  provider: heroku
+  api_key:
+    secure: hiIoFlW2uBohe7SZpudbS0W2dIQwA7yzc+6yMLxjw48jqP0buDSrk2N0l4rPA+yMWtSawRfYW+l/bMFAdeqEmqY0+xUDpDUqAQBO1/pGSdNsx7CBSFoJ+ogmuJMSRu4lKB7It3e49N6eHIcjHHRkwjH+RHZURU+nX5k3dNqvmvk=
+  app: powerful-cliffs-5543
+  on:
+    repo: rafa-murakami/rakuten-ws-rails-sample
