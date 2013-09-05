@@ -37,7 +37,12 @@ end
 
 group :test do
   gem 'rake'
+  gem "rspec-rails"
+  gem 'capybara'
 end
+
+gem 'httpclient'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
